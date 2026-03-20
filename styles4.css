@@ -24,6 +24,7 @@ body {
 
 .main-gallery {
     width: 90vh;
+    min-width: 90vh;
     min-height: 70vh;
     border-radius: 8px;
     text-align: center;
@@ -44,8 +45,8 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
     width: 100%;
     padding: 0 10px;
     justify-items: center;
